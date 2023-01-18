@@ -1,5 +1,3 @@
-// To começando o projeto agora 14:45
-
 // import Fighter from '../Fighter';
 
 // abstract class Battle {
