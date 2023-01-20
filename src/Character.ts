@@ -69,7 +69,8 @@ export default class Character implements Fighter {
   }
 
   special(enemy: Fighter): void {
-    enemy.receiveDamage(this._strength + 2);
+    this.attack(enemy);
+    this.attack(enemy);
     this._lifePoints += 2;
     if (this.lifePoints === 8) {
       this.levelUp();
